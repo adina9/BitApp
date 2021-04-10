@@ -1,0 +1,11 @@
+.charts-container {
+    display: flex;
+    justify-content: center;
+    margin: 24vh auto;
+}
+@media (max-width: 500px) {
+    .charts-container {
+        display: grid;
+        margin: 16vh auto;
+    }
+}
